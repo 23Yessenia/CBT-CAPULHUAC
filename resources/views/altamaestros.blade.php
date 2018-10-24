@@ -1,6 +1,6 @@
 <html>
 <body>
-<h1>Alta de maestros</h1>
+<h1>Bienvenidos</h1>
 <br>
 <form action = "{{route('guardamaestro')}}" method = "POST" enctype='multipart/form-data'>
 {{csrf_field()}}
