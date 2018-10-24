@@ -17,3 +17,7 @@ Route::get('/', function () {
 Route::get('/Hola', function () {
     return view('welcome');
 });
+
+Route::get('/Sistema', function () {
+    return view('welcome');
+});
